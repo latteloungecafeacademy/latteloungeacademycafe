@@ -1,0 +1,491 @@
+.title_front{
+    font-family: "Kaushan Script", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #d19566;
+}
+.text_front{
+    font-family: "Lato", serif;
+    
+}
+body {
+    scroll-behavior: smooth;
+    background-color: #F7F7F7;
+  }
+.navbar {
+    background-color: #000;
+
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+  .navbar .nav-link {
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    letter-spacing: 0.5px;
+    position: relative;
+  }
+  .navbar-nav{
+    gap: 20px;
+  }
+  .navbar .nav-link:hover {
+    color: #d19566;
+  }
+  .navbar .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #d19566;
+    transition: width 0.3s ease-in-out;
+  }
+  .navbar .nav-link:hover::after {
+    width: 100%;
+  }
+
+  .navbar-toggler {
+    background-color: #d19566;
+    border: none;
+  }
+  .navbar-brand img {
+    height: 60px;
+    width: auto;
+  }
+/* banner */
+.banner {
+    position: relative;
+    background-image: url(./img/coffe1.jpg);
+    background-size: cover; 
+    background-position: center; 
+    height: 90vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    color: white; 
+}
+
+.banner::before { 
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); 
+    z-index: 1; 
+}
+
+.banner * {
+    position: relative;
+    z-index: 2;
+}
+
+.title{
+    font-size: 4.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.subtitle{
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+.welcome{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.welcome_heading{
+    font-size: 3.2rem;
+    color: #6c503a;
+}
+.traning{
+    color:#576e65;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+    padding: 5px;
+}
+.training-courses {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+  }
+  .join-us {
+    position: relative; 
+    background-image: url('img/coffee.jpg');
+    background-size: cover;
+    background-position: center; 
+    padding: 100px 0;
+    text-align: center; 
+}
+
+.join-us::before {
+    content: ''; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.join-content {
+    position: relative;
+    z-index: 2;
+}
+
+.join-content h3 {
+    font-size: 50px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    color: #fff;
+}
+
+
+  .section-title {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .category-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #576e65;
+    margin-bottom: 20px;
+  }
+  
+  .course-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+
+  
+  .course-info {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .course-info h4 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .course-info p {
+    font-size: 18px;
+    color: #777;
+  }
+  .hr{
+    width: 85%;
+    display: flex;
+    margin: auto;
+  }
+  .course-note {
+    padding: 8px;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+.course_small{
+   font-size: 14px;
+}  
+.course-note p {
+    font-size: 16px;
+    color: #6c503a;
+  }
+  
+.meuns{
+    margin-bottom: 45px;
+}
+.canna{
+    color:#576e65;
+    font-size: 32px;
+}
+.welcome_icon {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    position: relative;
+
+}
+
+.welcome_icon::before,
+.welcome_icon::after {
+    content: "";
+    position: absolute;
+    top: 60%; 
+    width: 6%; 
+    height: 1px; 
+    background-color: #000;
+    z-index: -1;
+    margin-top: -1px; 
+}
+
+.welcome_icon::before {
+    left: 41%;
+}
+
+.welcome_icon::after {
+    right: 41%; 
+}
+
+.welcome_text {
+    font-size: 22px;
+    margin-top: 22px;
+}
+.see_more{
+    color: #d19566;
+}
+.meun_list{
+    color: #1e0e0e;
+    font-size: 1.8rem;
+    margin-top: 50px;
+}
+.why-choose-section {
+    padding: 30px 20px;
+  }
+  .why{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .why-choose-section h2 {
+    font-family: "Lato", serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .feature-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  .feature-icon {
+    font-size: 40px;
+    color: #d19566; 
+    margin-bottom: 15px;
+  }
+  .feature-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .feature-description {
+    font-size: 20px;
+    color: #555;
+  }
+  .use_item {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 350px; 
+    object-fit: cover; 
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+  }
+  
+.footer {
+    background-color: #111111; 
+    color: white; 
+    padding: 80px;
+    padding-bottom: 20px;
+}
+.social_media {
+    gap: 1rem; 
+}
+
+.soical_icon {
+    width: 3rem; 
+    height: 3rem; 
+    background-color: #d19566; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 50%; 
+    color: white; 
+    font-size: 1.5rem; 
+    transition: background-color 0.3s, transform 0.3s; 
+    cursor: pointer; 
+}
+
+.soical_icon a {
+    color: white; 
+    text-decoration: none;
+}
+
+.soical_icon:hover {
+    background-color: #576e65; 
+    transform: scale(1.1); 
+}
+
+.footer h3{
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+.footer p{
+    font-size: 1.4rem;
+}
+.caption{
+    color: #666666;
+}
+.caption small{
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav{
+        gap: 0px;
+      }
+    .title{
+        font-size: 45px;
+    }
+    .subtitle{
+        font-size: 22px;
+    }
+    .welcome_heading{
+        font-size: 2.2rem;
+    }
+    .welcome_text {
+        font-size: 16px;
+    }
+    .see_more {
+        font-size: 20px;
+    }
+    .meun_list {
+        font-size: 1rem;
+    }
+    .canna {
+        font-size: 20px;
+    }
+    .why-choose-section h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+      }
+      .feature-title {
+        font-size: 22px;
+      }
+      .feature-description {
+        font-size: 18px;
+      }
+
+      .traning {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .footer h3 {
+        font-size: 1.6rem;
+        margin-bottom: 6px;
+    }
+    .footer p {
+        font-size: 1rem;
+    }
+    .soical_icon {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+    .caption small {
+        font-size: 0.8rem;
+    }
+
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+    .banner {
+        height: 60vh;
+    }
+    .subtitle{
+        font-size: 16px;
+    }
+    .welcome_heading{
+        font-size: 1.2rem;
+    }
+    .canna {
+        font-size: 18px;
+    }
+    .welcome_icon::before {
+        left: 38%;
+    }
+    .welcome_icon::after {
+        right: 38%;
+    }
+    .welcome_text {
+        font-size: 14px;
+    }
+    .meun{
+        text-align: center;
+    }
+    .meun_list{
+        margin-top: 20px;
+    }
+    .traning {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .training-courses {
+        padding: 15px 0;
+    }
+    .category-title {
+        font-size: 18px;
+    }
+    .course-info h4 {
+        font-size: 18px;
+    }
+    .course-info p {
+        font-size: 16px;
+    }
+    .course-note p {
+        font-size: 14px;
+    }
+    .why {
+        margin-top: -22px;
+    }
+    .join-content h3 {
+        font-size: 25px;
+    }
+    
+    .footer h3 {
+        font-size: 20px;
+    }
+    .social_media {
+        gap: 0.7rem;
+    }
+    .caption small {
+        font-size: 0.5rem;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    
+}
