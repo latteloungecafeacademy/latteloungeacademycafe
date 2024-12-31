@@ -246,10 +246,25 @@ body {
 .see_more{
     color: #d19566;
 }
-.meun_list{
+/* .meun_list{
     color: #1e0e0e;
     font-size: 1.8rem;
     margin-top: 50px;
+} */
+.menu-cards .card {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.menu-cards .card-img-top {
+  object-fit: cover;
+  height: 100%; /* Ensures the image fills the entire height of the card */
+  width: 100%;  /* Ensures the image takes the full width of the card */
+  border-radius: 8px;
+  display: block; /* Prevents image from overflowing */
+}
+.menu-cards .card-img-top {
+  object-fit: cover;
+  border-radius: 8px;
 }
 .why-choose-section {
     padding: 30px 20px;
